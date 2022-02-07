@@ -1,6 +1,7 @@
 ### Simple CRUD application for storing files of specified types.
 
-Requirements: Java 8+ installed on machine
+Requirements: Java 8+ installed on machine. </br>Mind that application uses <b>h2 in-memory database</b> to store files.
+Restart of application means that database state will be lost.
 
 1. clone repo
 2. navigate to cloned directory
