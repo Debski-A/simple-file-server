@@ -6,5 +6,5 @@ Restart of application means that database state will be lost.
 1. clone repo
 2. navigate to cloned directory
 3. execute `./mvnw install -U`
-4. execute `java -jar target/simple-file-server-1.0.0.jar`
+4. execute `java -jar target/simple-file-server-0.0.1.jar`
 5. visit `localhost:8080/swagger-ui/index.html#/` to explore API
