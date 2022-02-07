@@ -52,6 +52,14 @@ public class SupportedFileTypesConfig {
             case "jpg":
             case "jpeg":
                 return "image/jpeg";
+            case "gif":
+                return "image/gif";
+            case "css":
+                return "text/css";
+            case "js":
+                return "text/javascript";
+            case "pdf":
+                return "application/pdf";
             default:
                 throw new UnsupportedFileTypeException(
                         String.format("Cannot create supportedContentTypesProvider because of missing mapping-to-content-type logic for supported type: '%s'", supportedType));

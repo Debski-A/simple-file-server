@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.debski</groupId>
     <artifactId>simple-file-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>simple-file-server</name>
     <description>Demo project for Luxdone</description>
 
